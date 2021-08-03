@@ -10,7 +10,7 @@ public class EnumSetAdd
     public static void main(String[] args)
     {
         EnumSet<Games> set1 = EnumSet.allOf(Games.class);
-        EnumSet<Games> set2 = EnumSet.allOf(Games.class);
+        EnumSet<Games> set2 = EnumSet.noneOf(Games.class);
         set2.add(Games.CRICKET);
         set2.add(Games.FOOTBALL);
         set2.add(Games.VOLLEYBALL);
